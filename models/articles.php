@@ -5,7 +5,15 @@
     V modelu moramo definirati tudi relacije oz. povezane entitete/modele. V primeru novice je to $user, ki 
     povezuje novico z uporabnikom, ki je novico objavil. Relacija nam poskrbi za nalaganje podatkov o uporabniku, 
     da nimamo samo user_id, ampak tudi username, ...
+*/<?php
+/*
+    Model za novico. Vsebuje lastnosti, ki definirajo strukturo novice in sovpadajo s stolpci v bazi.
+
+    V modelu moramo definirati tudi relacije oz. povezane entitete/modele. V primeru novice je to $user, ki 
+    povezuje novico z uporabnikom, ki je novico objavil. Relacija nam poskrbi za nalaganje podatkov o uporabniku, 
+    da nimamo samo user_id, ampak tudi username, ...
 */
+
 
 require_once 'users.php'; // Vključimo model za uporabnike
 
