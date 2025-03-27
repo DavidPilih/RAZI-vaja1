@@ -6,7 +6,7 @@
 
 // Funkcija, ki kliče kontrolerje in hkrati vključuje njihovo kodo in kodo modela
 function call($controller, $action)
-{
+{ssssss
   // Vključimo kodo controllerja in modela (pazimo na poimenovanje datotek)
   require_once('controllers/' . $controller . '_controller.php');
   if (file_exists('models/' . $controller . '.php')) {
